@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/2911521/pexels-photo-2911521.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#chat-app {
+  padding: 2%;
+  width: 50%;
+  margin: auto;
+}
+
+nav {
+  background: rgb(44, 44, 44);
+  padding: 10px 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: sticky;
+  top: 0;
+}
+
+nav .logo {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: auto;
+}
+
+.container {
+  height: 70vh;
+  margin: auto;
+  padding: 20px;
+  background: rgb(24, 23, 23);
+  color: white;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background: rgb(125, 14, 230);
+  max-width: 60%;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+  background: rgb(44, 44, 44);
+}
+.center {
+  clear: both;
+  text-align: center;
+  margin: 20px;
+  font-size: 0.7rem;
+  color: rgb(206, 199, 199);
+}
+.bold {
+  font-weight: bold;
+}
+
+#sendForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  padding: 15px 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: sticky;
+  bottom: 0;
+}
+
+#msgInput {
+  width: 88%;
+  padding: 7px;
+  border: 2px solid rgb(255, 255, 255);
+  outline: none;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.submit-btn {
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+}

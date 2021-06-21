@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/img/logo.png" type="image/x-icon">
+
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="public/js/client.js"></script>
+
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1200px)" href="public/css/app.css">
+    <title>Group Chat</title>
+
+</head>
+
+<body>
+    <div id="chat-app">
+        <nav>
+            <img src="public/img/logo.png" alt="logo" class="logo">
+        </nav>
+
+        <div class="container">
+            <br>
+            <div class="center">You're connected <br> Start the conversation</div>
+            <div class="message left">Chat Bot: Hey!</div>
+        </div>
+
+        <form action="#" id="sendForm">
+            <input type="text" name="msgInput" id="msgInput" autocomplete="off" autofocus>
+            <input type="image" src="public/img/send.png" alt="Submit" class="submit-btn">
+        </form>
+    </div>
+
+</body>
+
+</html>

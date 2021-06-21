@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(44, 44, 44);
+}
+
+#chat-app {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  height: 80vh;
+  padding: 5px 3px;
+}
+
+.message {
+  max-width: 70%;
+}
